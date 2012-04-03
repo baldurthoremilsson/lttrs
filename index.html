@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<title>lttrs</title>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="lttrs.js"></script>
+<style>
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 200px;
+    margin: 0;
+}
+
+.msg {
+    font-size: 70px;
+}
+
+.strip {
+    width: 100%;
+    height: 5px;
+    background: black;
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.letter {
+    font-size: 300px;
+    font-family: sans-serif;
+    color: silver;
+    position: absolute;
+    width: 100%;
+}
+
+#answerfield {
+    margin: 30px 0;
+    border: 1px solid silver;
+    font-size: 30px;
+    text-align: center;
+}
+
+.scores {
+    font-size: 50px;
+}
+</style>
+</head>
+<body>
+<h1>lttrs</h1>
+<div class="msg"></div>
+<div class="strip">
+<div class="letter"></div>
+</div>
+<input type="text" id="answerfield" name="answerfield" disabled>
+<div class="scores">0</div>
+</body>
+</html>
